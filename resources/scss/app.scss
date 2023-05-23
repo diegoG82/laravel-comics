@@ -1,28 +1,54 @@
-@use './partials/variables' as *;
-@import '~bootstrap/scss/bootstrap';
+@use "./partials/variables" as *;
+@import "~bootstrap/scss/bootstrap";
 
-.header_container{
-    border:1px solid black;
-    height:80px;
-    img{
-        width:50px;
-        
+body {
+    background-color: black;
+}
+
+.top {
+    height: 30px;
+    background-color: rgb(2, 130, 249);
+    line-height: 30px;
+}
+
+.header_container {
+    background-color: white;
+    height: 80px;
+    align-items: center;
+    img {
+        width: 50px;
     }
 }
 
+.jumbo_image {
+    height: 200px;
+    background-image: url(/resources/img/jumbotron.jpg);
+    background-position: cover;
+}
 
-
-
-
-.main_home{
+.main_home {
     // background-color: black;
-    .card{
+    .card {
         background-color: black;
         width: 200px;
         height: 400px;
         font-size: 0.7rem;
-        img{
-            height:300px;
+        img {
+            height: 300px;
         }
+    }
+}
+
+.top_footer {
+    height: 100px;
+    line-height: 100px;
+    background-color: rgb(2, 130, 249);
+    .navbar_top {
+        border:1px solid white;
+        width: 90%;
+        margin: 0 auto;
+    }
+    img {
+        width: 50px;
     }
 }

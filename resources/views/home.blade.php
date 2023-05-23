@@ -2,7 +2,7 @@
 
 @section('content')
     
-        <div class="container main_home">
+        <div class="container main_home mt-4">
             <div class="row row-cols-6 g-3">
                 @foreach ($comics as $single_comic)
                     <div class="col">

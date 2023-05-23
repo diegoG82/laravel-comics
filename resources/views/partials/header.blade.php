@@ -1,10 +1,18 @@
+<div class="container top d-flex justify-content-end  gap-2 text-white mt-2">
+    <p>DC POWER VISA</p>
+    <p>Additional DC Sites</p>
+
+</div>
+
 <nav class="bg-body-tertiary">
-    <div class="container header_container d-flex">
+    <div class="container header_container d-flex ">
+
         <div class="logo">
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
         </div>
-        <div id="navbarNav" class="justify-content-center d-flex">
-            <ul class="list-unstyled d-flex">
+
+        <div class="navbarNav" class="justify-content-between d-flex">
+            <ul class="list-unstyled d-flex m-0">
 
                 <li class="nav-item mx-3">
                     <a class="nav-link" href="{{ url('/characters') }}">CHARACTERS</a>
@@ -40,6 +48,9 @@
 
 
             </ul>
+        </div>
+        <div class="form_nav">
+            <input class="form-control form-control-sm" type="text" placeholder="Search...">
         </div>
     </div>
 </nav>

@@ -24,7 +24,6 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 });
 
-
 Route::get('/movies', function() {
     return view('movies');
 });
