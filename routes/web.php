@@ -13,6 +13,47 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+
+
 Route::get('/', function () {
-    return view('welcome');
+    $db = config('db');
+    $comics = $db['comics'];
+    return view('home', compact('comics'));
+});
+
+Route::get('/characters', function() {
+    return view('characters');
+});
+
+Route::get('/movies', function() {
+    return view('movies');
+});
+Route::get('/tv', function() {
+    return view('tv');
+});
+
+Route::get('/games', function() {
+    return view('games');
+});
+
+Route::get('/collectibles', function() {
+    return view('collectibles');
+});
+
+Route::get('/videos', function() {
+    return view('movies');
+});
+
+Route::get('/fans', function() {
+    return view('movies');
+});
+
+Route::get('/news', function() {
+    return view('movies');
+});
+
+Route::get('/shop', function() {
+    return view('movies');
 });
