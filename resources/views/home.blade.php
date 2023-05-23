@@ -1,16 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="pasta-container py-4">
-        <div class="container">
-            <div class="row row-cols-4 g-3">
+    
+        <div class="container main_home">
+            <div class="row row-cols-6 g-3">
                 @foreach ($comics as $single_comic)
                     <div class="col">
-                        <div class="card">
+                        <div class="card text-white">
                             <img src="{{ $single_comic['thumb'] }}" alt="">
-                            <div class="card-body">
+                            <div class="card-body text-center">
                                 <h5 class="card-title">{{ $single_comic['series'] }}</h5>
-                                <h5 class="card-title">{{ $single_comic['price'] }}</h5>
                             </div>
                         </div>
                     </div>
@@ -18,5 +17,5 @@
             </div>
 
         </div>
-    </div>
+   
 @endsection

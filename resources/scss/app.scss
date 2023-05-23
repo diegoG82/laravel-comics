@@ -1,2 +1,28 @@
 @use './partials/variables' as *;
 @import '~bootstrap/scss/bootstrap';
+
+.header_container{
+    border:1px solid black;
+    height:80px;
+    img{
+        width:50px;
+        
+    }
+}
+
+
+
+
+
+.main_home{
+    // background-color: black;
+    .card{
+        background-color: black;
+        width: 200px;
+        height: 400px;
+        font-size: 0.7rem;
+        img{
+            height:300px;
+        }
+    }
+}

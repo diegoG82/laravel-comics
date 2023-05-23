@@ -13,8 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-
+Route::get('/characters', function() {
+    return view('characters');
+});
 
 
 Route::get('/', function () {
@@ -23,9 +24,6 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 });
 
-Route::get('/characters', function() {
-    return view('characters');
-});
 
 Route::get('/movies', function() {
     return view('movies');
@@ -47,13 +45,13 @@ Route::get('/videos', function() {
 });
 
 Route::get('/fans', function() {
-    return view('movies');
+    return view('fans');
 });
 
 Route::get('/news', function() {
-    return view('movies');
+    return view('news');
 });
 
 Route::get('/shop', function() {
-    return view('movies');
+    return view('shop');
 });
