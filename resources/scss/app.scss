@@ -40,15 +40,12 @@ body {
 }
 
 .top_footer {
-    height: 100px;
-    line-height: 100px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 0.9rem;
     background-color: rgb(2, 130, 249);
-    .navbar_top {
-        border:1px solid white;
-        width: 90%;
-        margin: 0 auto;
-    }
+    
     img {
-        width: 50px;
+        width: 40px;
     }
 }

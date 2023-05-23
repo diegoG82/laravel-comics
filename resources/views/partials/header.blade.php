@@ -5,13 +5,13 @@
 </div>
 
 <nav class="bg-body-tertiary">
-    <div class="container header_container d-flex ">
+    <div class="container header_container d-flex justify-content-between">
 
         <div class="logo">
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
         </div>
 
-        <div class="navbarNav" class="justify-content-between d-flex">
+        <div class="navbarNav" class=" d-flex">
             <ul class="list-unstyled d-flex m-0">
 
                 <li class="nav-item mx-3">

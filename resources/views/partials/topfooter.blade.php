@@ -4,26 +4,26 @@
 
             <li class="nav-item mx-4">
               <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
-              <span>prova</span>
+              <span>DIGITAL COMICS</span>
             </li>
             <li class="nav-item mx-4">
-                <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
-                <span>prova</span>
-            </li>
-
-            <li class="nav-item mx-4">
-                <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
-                <span>prova</span>
+                <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="">
+                <span>DC MERCHANDISE</span>
             </li>
 
             <li class="nav-item mx-4">
-                <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
-                <span>prova</span>
+                <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="">
+                <span>SUBSCRIPTIONS</span>
             </li>
 
             <li class="nav-item mx-4">
-                <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
-                <span>prova</span>
+                <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="">
+                <span>COMIC SHOP LOCATOR</span>
+            </li>
+
+            <li class="nav-item mx-4">
+                <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="">
+                <span>DC POWER VISA</span>
             </li> 
            
         </ul>
