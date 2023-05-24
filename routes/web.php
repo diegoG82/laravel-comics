@@ -40,7 +40,7 @@ Route::get('/collectibles', function() {
 });
 
 Route::get('/videos', function() {
-    return view('movies');
+    return view('videos');
 });
 
 Route::get('/fans', function() {
